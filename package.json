@@ -38,7 +38,7 @@
     "test:main": "node test/bundle.js",
     "test:browser": "node test/browser-tests.js",
     "test": "npm-run-all test:*",
-    "prepare": "npm-run-all clean build lint test"
+    "prepare": "npm-run-all build lint test"
   },
   "dependencies": {
     "d3-hierarchy": "^1.1.5"
