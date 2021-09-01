@@ -29,7 +29,6 @@
     "url": "https://github.com/klortho/d3-flextree.git"
   },
   "scripts": {
-    "clean": "rm -rf build demo test",
     "build:demo": "rollup -c --environment BUILD:demo",
     "build:dev": "rollup -c --environment BUILD:dev",
     "build:prod": "rollup -c --environment BUILD:prod",
